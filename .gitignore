@@ -1,0 +1,27 @@
+# Archivos y directorios a ignorar
+
+# Archivos de configuración específicos del proyecto
+.env
+
+# Entornos virtuales de Python
+venv/
+.venv/
+# Directorios generados por herramientas de desarrollo
+.cache/
+.idea/
+.mypy_cache/
+__pycache__/
+
+# Archivos de compilación
+*.pyc
+*.pyo
+
+# Archivos de prueba
+*.pytest
+
+# Archivos de documentación
+docs/build/
+
+# Archivos de salida específicos de la herramienta
+*.egg-info/
+*.dist/
